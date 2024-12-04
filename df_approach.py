@@ -11,8 +11,8 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 
 configirations = {'name': ["ESAM","FFOLLOZZ"],
                   'embeddings_name':["BAAI/bge-base-en-v1.5","sentence-transformers/all-MiniLM-L6-v2"],
-                  'vdb_dir':['ESAM','FFollozz'],
-                  'sys_prompt_dir':['ESAM/ESAM sys propmt.txt','FFollozz/ffollozz_system_prompt.txt']}
+                  'vdb_dir':['esam','ffollozz'],
+                  'sys_prompt_dir':['esam/ESAM sys propmt.txt','ffollozz/ffollozz_system_prompt.txt']}
 df = pd.DataFrame(configirations)
 def bot_func(rag_chain,user_input, session_id):
     response = rag_chain.invoke({"input": user_input}, config={"configurable": {"session_id": session_id}})["answer"]
