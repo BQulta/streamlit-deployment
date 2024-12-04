@@ -6,7 +6,6 @@ from utils.functions import create_conversational_rag_chain
 from uuid import uuid4
 import pandas as pd 
 import os 
-os.environ["OPENAI_API_KEY"] = "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"
 
 llm = ChatOpenAI(model="gpt-4o-mini")
 
