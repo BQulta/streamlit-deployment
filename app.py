@@ -14,7 +14,7 @@ from pyunpack import Archive
 from utils.functions import create_conversational_rag_chain
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.0)
 
 names = []
