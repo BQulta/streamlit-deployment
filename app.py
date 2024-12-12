@@ -30,7 +30,7 @@ for dir in os.listdir():
      if os.path.isdir(dir) and "." not in dir and dir != "utils": 
         names.append(dir)
         system_prompt_dirs.append(f"{dir}/system_prompt.txt")
-        vdb_dirs.append(f"{dir}/Vdb/Vdb/"
+        vdb_dirs.append(f"{dir}/Vdb/Vdb/")
         
 
 configirations = {'name': names,
