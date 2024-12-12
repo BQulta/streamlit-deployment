@@ -1,0 +1,8 @@
+[
+    {"question": "is there grande ecole program in essca", "expected_answer": "https://www.essca.eu/programmes/formation-initiale/programme-grande-ecole/"},
+    {"question": "what are the fees of the Bachelor in Management?", "expected_answer": "https://www.essca.eu/programmes/formation-initiale/bachelor-en-management-international/"},
+    {"question": "What are the campuses", "expected_answer": "https://www.essca.eu/les-campus/"},
+    {"question": "what are the programs available in the MSC", "expected_answer": "https://www.essca.eu/programmes/formation-initiale/masters-of-science-programme/"},
+    {"question": "short training courses", "expected_answer": "https://www.essca.eu/programmes/formation-continue/courte/"},
+    {"question": "why study abroad with essca", "expected_answer": "https://www.essca.eu/programmes/etudier-a-linternational-essca/"} 
+]

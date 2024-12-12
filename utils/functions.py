@@ -1,6 +1,8 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 import pickle
@@ -13,6 +15,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
+
 
 msgs = StreamlitChatMessageHistory(key="special_app_key")
 
@@ -112,9 +115,18 @@ def create_conversational_rag_chain(sys_prompt_dir,vdb_dir,llm,embeddings_name):
 
 
     rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chain)
+
+    
+    def get_session_history(session_id: str) -> BaseChatMessageHistory:
+        store = {}
+        if session_id not in store:
+            store[session_id] = ChatMessageHistory()
+        return store[session_id]
+    
+    
     conversational_rag_chain = RunnableWithMessageHistory(
         rag_chain,
-        lambda session_id: msgs,
+        get_session_history,
         input_messages_key="input",
         history_messages_key="history",
         output_messages_key="answer",
@@ -122,131 +134,3 @@ def create_conversational_rag_chain(sys_prompt_dir,vdb_dir,llm,embeddings_name):
         top_n=5
     )
     return conversational_rag_chain
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

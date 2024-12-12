@@ -1,0 +1,8 @@
+[
+    {"question": "is there MBA in essec", "expected_answer": "https://www.essec.edu/en/program/global-mba/"},
+    {"question": "what are the fees of the Bachelor in AI and data science?", "expected_answer": "https://www.essec.edu/en/program/bsc-artificial-intelligence-data-management-sciences-international/#financing"},
+    {"question": "What are the campuses?", "expected_answer": ["https://www.essec.edu/en/","https://www.essec.edu/"]},
+    {"question": "is there online programs?", "expected_answer": "https://www.essec.edu/en/pages/essec-online/"},
+    {"question": "is there customized programs in essec ?", "expected_answer": "https://www.essec.edu/en/pages/custom-programs/"},
+    {"question": "how to become a partner?", "expected_answer": "https://www.essec.edu/en/pages/become-an-essec-partner/"} 
+]

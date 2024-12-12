@@ -1,0 +1,8 @@
+[
+    {"question": "What are the work study programs?", "expected_answer": "https://www.bsb-education.com/fr/alternance"},
+    {"question": "what are the fees of the Bachelor in Management?", "expected_answer": "https://www.bsb-education.com/fr/formation/bachelor-in-management"},
+    {"question": "What are the campuses", "expected_answer": "https://www.bsb-education.com/fr/lecole/nos-campus"},
+    {"question": "in which campus is the wine management msc", "expected_answer": "https://www.bsb-education.com/fr/formation/msc-wine-management"},
+    {"question": "international in bsb", "expected_answer": "https://bsb-education.com/fr/lecole/international"},
+    {"question": "is there a doctorate in bsb", "expected_answer": "https://www.bsb-education.com/fr/formation/doctorate-of-business-administration"} 
+]

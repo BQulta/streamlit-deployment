@@ -1,0 +1,8 @@
+[
+    {"question": "Is there alternance in bachelor of management", "expected_answer": "https://www.rennes-sb.fr/programmes/bachelor/bachelor-bim-1ere-annee-post-bac/"},
+    {"question": "what are the fees of the Bachelor in business and international relations?", "expected_answer": "https://www.rennes-sb.fr/programmes/bachelor/tarifs-financements-bim/"},
+    {"question": "What are the campuses?", "expected_answer": ["https://www.rennes-sb.fr/ecole/vos-campus/"]},
+    {"question": "What are the fees of the program grande ecole?", "expected_answer": "https://www.rennes-sb.fr/programmes/master-programme-grande-ecole/tarif-financement-pge/"},
+    {"question": "in which campus the phd can be done?", "expected_answer": "https://www.rennes-sb.fr/programmes/programmes-doctoraux/phd/"},
+    {"question": "how to become a partner?", "expected_answer": "https://www.rennes-sb.fr/entreprises/devenir-partenaire/"} 
+]

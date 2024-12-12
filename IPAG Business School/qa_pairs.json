@@ -1,0 +1,8 @@
+[
+    {"question": "Who is IPAG online for ?", "expected_answer": "https://www.ipag.edu/ipag-online"},
+    {"question": "what are the fees of the Bachelor programs?", "expected_answer": "https://www.ipag.edu/bachelor-bac3?tab=onglet1"},
+    {"question": "Does IPAG have DBA?", "expected_answer": ["https://www.ipag.edu/doctorate-business-administration?tab=onglet1"]},
+    {"question": "What are the fees of the program grande ecole?", "expected_answer": "https://www.ipag.edu/programme-grande-ecole-main-track?tab=onglet1"},
+    {"question": "Is there a Preparatory program?", "expected_answer": "https://ipag.edu/programme-preparatoire-abidjan?tab=onglet1"},
+    {"question": "how to finance my studies? ", "expected_answer": "https://www.ipag.edu/financement-et-bourses"} 
+]

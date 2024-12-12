@@ -1,0 +1,8 @@
+[
+    {"question": "What are the masters program in the school?", "expected_answer": "https://www.em-strasbourg.com/fr/etudiant/formations/masters"},
+    {"question": "What is the course of programme grand ecole?", "expected_answer": "https://www.em-strasbourg.com/fr/etudiant/formations/programme-grande-ecole?tab=parcours"},
+    {"question": "Life at strasbourg", "expected_answer": "https://www.em-strasbourg.com/fr/etudiant/vie-etudiante-et-services/vie-a-strasbourg"},
+    {"question": "What are the Entry Requirements?", "expected_answer": "https://www.em-strasbourg.com/en/student/programs/bachelor-entrance-exam-international-students"},
+    {"question": "What are the admissions steps?", "expected_answer": "https://www.em-strasbourg.com/fr/etudiant/formations/concours-ecricome-bachelor"},
+    {"question": "What are the doctorats steps ?", "expected_answer": "https://www.em-strasbourg.com/fr/etudiant/formations/doctorats"} 
+]

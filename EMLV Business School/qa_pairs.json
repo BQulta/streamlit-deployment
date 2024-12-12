@@ -1,0 +1,8 @@
+[
+    {"question": "What campuses do you have ?", "expected_answer": "https://www.emlv.fr/vie-etudiante/campus/"},
+    {"question": "What are the programs?", "expected_answer": "https://www.emlv.fr/programmes/"},
+    {"question": "What are the fees of msc digital marketing?", "expected_answer": "https://www.emlv.fr/en/programmes/msc-marketing-digital-communication/"},
+    {"question": "What are the double diplomes?", "expected_answer": "https://www.emlv.fr/programmes/double-diplomes/"},
+    {"question": "What are the admissions steps?", "expected_answer": "https://www.emlv.fr/en/admissions-paralleles/"},
+    {"question": "Who are the professors?", "expected_answer": "https://www.emlv.fr/professeurs-recherche/corps-professoral/"} 
+]

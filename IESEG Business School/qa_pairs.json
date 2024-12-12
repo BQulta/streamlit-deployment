@@ -1,0 +1,8 @@
+[
+    {"question": "is there MBA in IESEG", "expected_answer": "https://www.ieseg.fr/programmes/mba/"},
+    {"question": "what are the fees of the Bachelor in international business?", "expected_answer": "https://www.ieseg.fr/programmes/bachelor-international-business/programme/"},
+    {"question": "What are the campuses?", "expected_answer": ["https://www.ieseg.fr/vie-ieseg/"]},
+    {"question": "What are the fees of the program grande ecole?", "expected_answer": "https://www.ieseg.fr/programmes/masters-specialises/programme-grande-ecole/programme-bachelor/"},
+    {"question": "How many students can Lille campus have?", "expected_answer": "https://www.ieseg.fr/vie-ieseg/campus-lille/"},
+    {"question": "how to become a partner?", "expected_answer": "https://www.ieseg.fr/relations-entreprises/simpliquer-dans-lecole/"} 
+]
