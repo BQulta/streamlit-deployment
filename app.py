@@ -30,14 +30,8 @@ for dir in os.listdir():
      if os.path.isdir(dir) and "." not in dir and dir != "utils": 
         names.append(dir)
         system_prompt_dirs.append(f"{dir}/system_prompt.txt")
-        rar_dir = f"{dir}/Vdb.rar"
-        out = f"{dir}/Vdb/"
-        if  os.path.exists(out):
-                vdb_dirs.append(out)
-                continue
-        else:
-                os.makedirs(out)
-                Archive(rar_dir).extractall(out)
+        vdb_dirs.append(f"{dir}/Vdb/Vdb/"
+        
 
 configirations = {'name': names,
                   'embeddings_name':[BAAI,BAAI,BAAI,BAAI,BAAI,BAAI,BAAI,BAAI],
